@@ -1,0 +1,73 @@
+.home-page {
+	/* padding: 0% 4%; */
+	width: 100%;
+	height: 80vh;
+	background: #ffd9bb;
+	display: flex;
+}
+
+.left-image {
+	width: 45%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.left-image .dog-image {
+	z-index: 10;
+}
+.left-image .background-circle {
+	position: absolute;
+	width: 470px;
+	height: 470px;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.359);
+	z-index: 9;
+	right: 10%;
+}
+.left-image .leaves-white {
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform: translate(0%, 50%);
+}
+
+/* *right front here */
+.right-content {
+	width: 55%;
+	display: flex;
+	align-items: center;
+}
+.wrapper {
+	margin-left: 20px;
+	height: 235px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	position: relative;
+}
+.right-content h1 {
+	font-size: 52px;
+	margin: 0;
+}
+.right-content p {
+	font-size: 18px;
+	max-width: 90%;
+}
+.right-content button {
+	width: 178px;
+	height: 59px;
+	border-radius: 30px;
+	background: #9ec56f;
+	color: white;
+	font-size: 20px;
+	font-weight: 750px;
+	border: none;
+}
+.right-content .leaves-white {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	transform: translate(-150%, 100%);
+}

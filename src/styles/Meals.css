@@ -1,0 +1,44 @@
+.style-img {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.meal-image-wrapper {
+	margin-bottom: 100px;
+	padding: 0% 4%;
+	height: 242px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.single-meal {
+	border-radius: 15px;
+	position: relative;
+	overflow: hidden;
+}
+.vector {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 99;
+}
+.content {
+	width: 200px;
+	height: 135px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	margin-left: 20px;
+	padding-top: 5px;
+}
+
+.content .button {
+	width: 111px;
+	height: 36px;
+	background: #9ec56f;
+	border-radius: 30px;
+	border: none;
+}

@@ -1,0 +1,50 @@
+.aditional-page {
+	padding: 0% 4%;
+}
+.right-image,
+.left-content {
+	background: #e1f6ff;
+	width: 50%;
+	height: 600px;
+}
+.left-content {
+	padding: 30px 20px;
+}
+.left-content h1 {
+	margin-left: 20px;
+	font-size: 47px;
+}
+.comp-wrapper {
+	display: flex;
+	border-radius: 30px;
+	overflow: hidden;
+}
+.specifications {
+	font-size: 20px;
+	list-style-type: none;
+}
+.specifications li {
+	padding-left: 30px;
+	margin-top: 25px;
+	background: url("/public/Assets/footicon.png") no-repeat left center;
+}
+/**  right side from here */
+.right-image {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.background-circle {
+	width: 650px;
+	height: 650px;
+	border-radius: 50%;
+	background: rgba(77, 87, 104, 0.151);
+	position: absolute;
+	top: 20px;
+	right: 10%;
+	z-index: 1;
+}
+.right-image .dog-image {
+	margin-top: 20px;
+}

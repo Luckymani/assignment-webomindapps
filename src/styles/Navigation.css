@@ -1,0 +1,80 @@
+.nav-bar {
+	padding: 2% 4% 0% 4%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.left-side,
+.right-side {
+	display: flex;
+}
+
+.left-side {
+	align-items: center;
+	/* border: 2px solid red; */
+}
+.hamburger {
+	width: 42px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.hamburger div {
+	width: 100%;
+	border: 1px solid black;
+}
+.left-side .logo {
+	margin-left: 30px;
+}
+
+/* * right side from here */
+
+.right-side {
+	/* border: 2px solid blue; */
+	align-items: center;
+}
+.icons img {
+	margin-right: 20px;
+	position: relative;
+}
+.cart-icon::after {
+	content: "3";
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	background: black;
+	top: 0;
+	right: 0;
+}
+
+.nav-links {
+	list-style-type: none;
+	display: flex;
+	margin-right: 40px;
+	/* border: 1px solid black; */
+}
+.link {
+	width: 120px;
+	height: 36px;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 20px;
+}
+
+.link1 {
+	background: #ffdde2;
+}
+.link2 {
+	background: #d4ecff;
+}
+.link3 {
+	background: #ffb487;
+}
